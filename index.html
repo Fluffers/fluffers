@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jakub Juszczak</title>
+</head>
+<style>
+    body {
+        margin: 0 auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url("img/crissxcross.png");
+        background-repeat: repeat;
+    }
+
+    #content {  
+        margin: 0 auto;
+        margin-top:100px;
+        width: 400px;
+        background-color: white;
+        border: solid black 2px;
+        border-radius: 20px;
+    }
+    #content>h1 {
+        text-align: center;
+
+    }
+    li{
+        margin: 2px;
+    }
+    li>a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    li>a:hover {
+        text-decoration: underline;
+    }
+
+    li>a>span {
+        color: grey;
+        font-weight: none;
+        font-style: italic;
+    }
+    #footer{
+        width:100%;
+        height:50px;
+        border-top:solid black 2px;
+        background-color:white;
+        position:fixed;
+        bottom:0;
+        left:0;
+    }
+    #footer>p{
+        padding-left:10px;
+        font-weight: bold;
+    }
+</style>    
+
+<body>
+    <div id="content">
+        <h1>Projekty</h1>
+        <ul>
+            <li>
+                <a href="./memory/memory.html">Memory
+                    <span> - gra przeglądarkowa</span>
+                </a>
+
+            </li>
+            <li>
+                <a href="./kulki/kulki.html">Kulki
+                    <span> - gra przeglądarkowa</span>
+                </a>
+            </li>
+            <li>
+                <a href="./fridge/fridge.html">Lodówka
+                    <span> - aplikacja do notowania</span>
+                </a>
+            </li>
+            <li>
+                <a href="./zuzel/zuzel.html">Żużel
+                    <span> - gra przeglądarkowa</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <div id="footer">
+        <p>Jakub Juszczak, 2018</p>
+    </div>
+</body>
+
+</html>
